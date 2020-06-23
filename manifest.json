@@ -1,0 +1,27 @@
+{
+    "manifest_version" : 2,
+    "name" : "Tab-saver",
+    "version" : "1.0",
+    
+    "description" : "A lighter tab categorizer for Firefox.",
+
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+          "js": ["tab.js"]
+        }
+      ],
+
+    "browser_action" : {
+        "default_icon" : {
+            "48" : "asset/test-48.png"
+        },
+        "default_title" : "Tab-saver",
+        "default_popup" : "file/index.html"
+    },
+
+    "icons" : {
+        "48" : "asset/test-48.png",
+        "96" : "asset/test-96.png"
+    }
+}
