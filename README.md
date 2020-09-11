@@ -1,2 +1,2 @@
-# Tab-Saver
+# Tab View
 The Tab Saver plugin
